@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24-08-2016, 12:36:01
+    Author     : SYZYGY design corporation
+*/
+
+#pane {
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, firebrick, darkviolet);
+    -fx-background-repeat: stretch;   
+    -fx-background-position: center;
+}
+
+#btn {
+    -fx-background-image: url("../images/soren.png");
+    -fx-background-repeat: stretch;
+    -fx-background-color: slategrey;
+    -fx-font-size: 50;
+    -fx-text-fill: linear-gradient(from 0% 0% to 100% 100%, lavenderblush, lawngreen);
+}
+
+#btn:hover {
+    -fx-text-fill: firebrick;
+    -fx-border-color: lightblue;
+}
+
+#lblPlayer {
+    -fx-font-size: 40;
+    -fx-font-style: oblique;
+    -fx-font-family: "Comic Sans MS";
+}
+
+#btnNewGame {
+    -fx-background-color: slategrey;
+}
+
+#btnNewGame:hover {
+    -fx-background-color: pink;
+}
